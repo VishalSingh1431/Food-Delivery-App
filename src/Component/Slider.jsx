@@ -1,11 +1,8 @@
 import React from 'react'
+import {useState} from 'react'
 
-const Slider = () => {
-  return (
-    <div>
-      Slider
-    </div>
-  )
+const Slider = ()=>{
+
 }
 
 export default Slider
