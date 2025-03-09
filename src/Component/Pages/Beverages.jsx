@@ -1,0 +1,91 @@
+import React from "react";
+import Card from "./Card";
+
+const Beverages = () => {
+  return (
+    <div className="flex flex-wrap justify-center gap-4">
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.5}
+        name="Tea"
+        type="Hot"
+        persons={1}
+        price={49}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.6}
+        name="Coffee"
+        type="Hot"
+        persons={1}
+        price={79}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.7}
+        name="Juice"
+        type="Cold"
+        persons={1}
+        price={99}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.3}
+        name="Shake"
+        type="Cold"
+        persons={1}
+        price={149}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.4}
+        name="Soda"
+        type="Cold"
+        persons={1}
+        price={89}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.6}
+        name="Milk"
+        type="Cold"
+        persons={1}
+        price={59}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.5}
+        name="Mocha"
+        type="Hot"
+        persons={1}
+        price={129}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.2}
+        name="Latte"
+        type="Hot"
+        persons={1}
+        price={139}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.1}
+        name="Punch"
+        type="Cold"
+        persons={1}
+        price={119}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.3}
+        name="Cocoa"
+        type="Hot"
+        persons={1}
+        price={149}
+      />
+    </div>
+  );
+};
+
+export default Beverages;

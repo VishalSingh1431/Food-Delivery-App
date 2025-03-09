@@ -1,0 +1,91 @@
+import React from "react";
+import Card from "./Card";
+
+const Lunch = () => {
+  return (
+    <div className="flex flex-wrap justify-center gap-4">
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.2}
+        name="Burger"
+        type="Veg"
+        persons={1}
+        price={299}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.5}
+        name="Pizza"
+        type="Veg"
+        persons={1}
+        price={399}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.3}
+        name="Pasta"
+        type="Veg"
+        persons={1}
+        price={249}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.0}
+        name="Sandwich"
+        type="Veg"
+        persons={1}
+        price={199}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.1}
+        name="Wrap"
+        type="Veg"
+        persons={1}
+        price={179}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.4}
+        name="Salad"
+        type="Veg"
+        persons={1}
+        price={159}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.6}
+        name="Biryani"
+        type="Non-Veg"
+        persons={1}
+        price={349}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.2}
+        name="Noodles"
+        type="Veg"
+        persons={1}
+        price={229}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.3}
+        name="Tacos"
+        type="Non-Veg"
+        persons={1}
+        price={279}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.7}
+        name="Steak"
+        type="Non-Veg"
+        persons={1}
+        price={499}
+      />
+    </div>
+  );
+};
+
+export default Lunch;

@@ -1,0 +1,91 @@
+import React from "react";
+import Card from "./Card";
+
+const Desserts = () => {
+  return (
+    <div className="flex flex-wrap justify-center gap-4">
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.7}
+        name="Cake"
+        type="Veg"
+        persons={1}
+        price={199}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.6}
+        name="Brownie"
+        type="Veg"
+        persons={1}
+        price={149}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.5}
+        name="Pastry"
+        type="Veg"
+        persons={1}
+        price={129}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.8}
+        name="Donut"
+        type="Veg"
+        persons={1}
+        price={99}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.3}
+        name="Muffin"
+        type="Veg"
+        persons={1}
+        price={119}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.4}
+        name="Pudding"
+        type="Veg"
+        persons={1}
+        price={159}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.7}
+        name="Tart"
+        type="Veg"
+        persons={1}
+        price={179}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.5}
+        name="Cupcake"
+        type="Veg"
+        persons={1}
+        price={139}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.6}
+        name="Waffle"
+        type="Veg"
+        persons={1}
+        price={169}
+      />
+      <Card
+        image="https://domf5oio6qrcr.cloudfront.net/medialibrary/12257/conversions/b599a20a-a453-425a-9d2f-fa2ff8ba2776-thumb.jpg"
+        rating={4.2}
+        name="Macaron"
+        type="Veg"
+        persons={1}
+        price={189}
+      />
+    </div>
+  );
+};
+
+export default Desserts;
