@@ -15,14 +15,14 @@ function App() {
       <Navbar />
       <Landing/>
       <Home/>
+      <All/>
       <Routes>  
-        <Route path="/all" element={<All />} />
+        {/* <Route path="/all" element={<All />} /> */}
         <Route path="/breakfast" element={<Breakfast />} />
         <Route path="/lunch" element={<Lunch />} />
         <Route path="/dinner" element={<Dinner />} />
         <Route path="/beverages" element={<Beverages />} />
-        <Route path="/desserts" element={<Desserts />} />
-        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
+        <Route path="/desserts" element={<Desserts />} /> 
       </Routes>
     </>
   );
