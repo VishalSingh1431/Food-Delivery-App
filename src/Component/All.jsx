@@ -4,36 +4,40 @@ import Lunch from "./Pages/Lunch";
 import Dinner from "./Pages/Dinner";
 import Beverages from "./Pages/Beverages";
 import Desserts from "./Pages/Desserts";
- 
 
 const All = () => {
   return (
     <div className="flex flex-col gap-10 items-center">
       <h1 className="text-3xl font-bold">All Categories</h1>
       
+      {/* Breakfast Component */}
       <div className="w-full text-center">
         <h2 className="text-2xl font-semibold mb-4">🍳 Breakfast</h2>
-        <Breakfast/>
+        <Breakfast />
       </div>
 
+      {/* Lunch Component */}
       <div className="w-full text-center">
         <h2 className="text-2xl font-semibold mb-4">🍛 Lunch</h2>
-        <Lunch/>
+        <Lunch />
       </div>
 
+      {/* Dinner Component */}
       <div className="w-full text-center">
         <h2 className="text-2xl font-semibold mb-4">🍽️ Dinner</h2>
-        <Dinner/>
+        <Dinner />
       </div>
 
+      {/* Beverages Component */}
       <div className="w-full text-center">
         <h2 className="text-2xl font-semibold mb-4 text-center">🥤 Beverages</h2>
-        <Beverages/>
+        <Beverages />
       </div>
 
+      {/* Desserts Component */}
       <div className="w-full text-center">
         <h2 className="text-2xl font-semibold mb-4">🍰 Desserts</h2>
-        <Desserts/>
+        <Desserts />
       </div>
     </div>
   );

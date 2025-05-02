@@ -9,17 +9,17 @@ const Navbar = () => {
       </div>
       <div>
         <ul className='flex gap-3 '>
-          <li>Home</li>
-          <li>About</li>
+          {/* <li>Home</li> */}
+          {/* <li>About</li>
           <li>Our Team</li>
           <li>Testimonials</li>
-          <li>Contact</li>
+          <li>Contact</li> */}
         </ul>
       </div>
       <div >
-        <ul className='flex gap-3'> 
+        {/* <ul className='flex gap-3'> 
           <li className='border-amber-50'>Search Here</li>
-        </ul> 
+        </ul>  */}
       </div>
 
 
