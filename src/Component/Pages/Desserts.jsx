@@ -45,46 +45,46 @@ const Desserts = ({ searchTerm = '' }) => {
       price: 159,
     },
     
-    {
-      image: "https://images.unsplash.com/photo-1486427944299-d1955d23e34d",
-      rating: 4.5,
-      name: "Cupcake",
-      type: "Veg",
-      persons: 1,
-      price: 139,
-    },
-    {
-      image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d",
-      rating: 4.6,
-      name: "Waffle",
-      type: "Veg",
-      persons: 1,
-      price: 169,
-    },
-    {
-      image: "https://images.unsplash.com/photo-1508737027454-e6454ef45afd",
-      rating: 4.2,
-      name: "Macaron",
-      type: "Veg",
-      persons: 1,
-      price: 189,
-    },
-    {
-      image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f",
-      rating: 4.9,
-      name: "Ice Cream",
-      type: "Veg",
-      persons: 1,
-      price: 149,
-    },
-    {
-      image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75",
-      rating: 4.4,
-      name: "Cheesecake",
-      type: "Veg",
-      persons: 1,
-      price: 219,
-    }
+    // {
+    //   image: "https://images.unsplash.com/photo-1486427944299-d1955d23e34d",
+    //   rating: 4.5,
+    //   name: "Cupcake",
+    //   type: "Veg",
+    //   persons: 1,
+    //   price: 139,
+    // },
+    // {
+    //   image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d",
+    //   rating: 4.6,
+    //   name: "Waffle",
+    //   type: "Veg",
+    //   persons: 1,
+    //   price: 169,
+    // },
+    // {
+    //   image: "https://images.unsplash.com/photo-1508737027454-e6454ef45afd",
+    //   rating: 4.2,
+    //   name: "Macaron",
+    //   type: "Veg",
+    //   persons: 1,
+    //   price: 189,
+    // },
+    // {
+    //   image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f",
+    //   rating: 4.9,
+    //   name: "Ice Cream",
+    //   type: "Veg",
+    //   persons: 1,
+    //   price: 149,
+    // },
+    // {
+    //   image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75",
+    //   rating: 4.4,
+    //   name: "Cheesecake",
+    //   type: "Veg",
+    //   persons: 1,
+    //   price: 219,
+    // }
   ];
 
   const filteredItems = dessertItems.filter((item) =>

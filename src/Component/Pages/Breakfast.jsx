@@ -52,24 +52,24 @@ const Breakfast = ({ searchTerm = '' }) => {
       image: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26",
     },
     
-    {
-      id: 9,
-      name: "Sandwich",
-      type: "Veg",
-      rating: 4.5,
-      persons: 1,
-      price: 149,
-      image: "https://images.unsplash.com/photo-1485451456034-3f9391c6f769",
-    },
-    {
-      id: 10,
-      name: "Cereal",
-      type: "Veg",
-      rating: 4.0,
-      persons: 1,
-      price: 129,
-      image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
-    }
+    // {
+    //   id: 9,
+    //   name: "Sandwich",
+    //   type: "Veg",
+    //   rating: 4.5,
+    //   persons: 1,
+    //   price: 149,
+    //   image: "https://images.unsplash.com/photo-1485451456034-3f9391c6f769",
+    // },
+    // {
+    //   id: 10,
+    //   name: "Cereal",
+    //   type: "Veg",
+    //   rating: 4.0,
+    //   persons: 1,
+    //   price: 129,
+    //   image: "https://images.unsplash.com/photo-1606787366850-de6330128bfc",
+    // }
   ];
 
   const filteredItems = foodItems.filter((item) =>
